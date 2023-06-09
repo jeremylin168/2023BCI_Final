@@ -10,7 +10,7 @@ Video link: https://youtu.be/6kmrrZDuir0
 &emsp;And the collected data from twelve participants in the new dataset WAY-EEG-GAL. The participant’s task in each trial was to reach for a small object, grasp it using their index finger and thumb, and lift it a few centimeters up in the air, hold it stably for a couple of seconds, and then replace and release the object. The beginning of the reach and the lowering of the object was cued by an LED, otherwise the pace of the task was up to the participant. During all trials, we recorded 32 channels of EEG, 5 channels of EMG from the shoulder, forearm, and hand muscles, the position of the arm, thumb and index finger and the object, and the forces applied to the object by the precision grip.  
 
 ICLabel result:  
-![image](https://hackmd.io/_uploads/rJ1iDBxv2.png)  
+![](./pictures/螢幕擷取畫面 2023-06-09 143135.png)  
 
 ## 3. Model Framework:
 &emsp;First, we preprocess the datasets using a bandpass filter provided by EEGlab. The bandpass filter will preserve the frequency 1-50HZ signals in the data. By doing this, we can get rid of data that is not brain signals.  
